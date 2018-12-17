@@ -1,0 +1,131 @@
+*,body{
+    margin: 6;
+    padding: 6;
+}
+body{
+    background-color: #f7f9fc;
+}
+/*color*/
+.bg-green{
+    background-color: aqua;
+    color: #fff;
+    box-shadow: 0 0 7px 0px #52dc90;
+    border: 1px solid #52dc90;
+}
+.bg-blue{
+    background-color: #55abfd;
+    color: #fff;
+    box-shadow: 0 0 7px 0px #55a8fd;
+    border: 1px solid #55a8fd
+}
+.border-blue{
+    color: #55a8fd;
+    border: 1px solid #55a8fd;
+}
+/*Component*/
+.text-black{
+    color:#333;
+}
+.text-gray{
+    color: #888;
+}
+.button{
+    position: relative;
+    padding: 15px 30px 15px 30px;
+    text-decoration : none;
+    display: inline-block;
+    margin-right: 15px;
+    border-radius: 3px;
+}
+
+/*profile*/
+section#box-profile{
+    
+    width: 80%;
+    min-height: 250px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 60px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 7px 0px rgba(136,136,136,0.2)
+}
+#box-profile .img-profile{
+    position: relative;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border-radius: 300px;
+    float: left;
+    top: 25px;
+    margin-left: 40px;
+}
+.img-profile .photo{
+    height: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 0px -20px;
+    border-radius: 300px;
+}
+.description{
+    position: relative ;
+    width: 400px;
+    display: inline-block;
+    float: left;
+    top: 45px;
+    margin-left: 30px;
+    font-family: 'Helvetica', sans-serif;
+    border-right: 1px solid #efefef;
+}
+.description .button{
+    margin-top: 45px;
+    margin-left: 350px; 
+}
+
+/*form*/
+
+section#input-form{
+    position: relative;
+    max-width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 60px;
+    background-color: #fff;
+    box-shadow: 0 0 7px 0px rgba(136, 146, 146, 0.2);
+    padding: 30px;
+}
+#input-form .form{
+    width: 100%;
+    display: grid;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+label{
+    font-family: 'Helvetica', sans-serif;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+}
+input{
+    font-family: 'Helvetica', sans-serif;
+    padding: 10px 20px 10px 20px;
+    outline: none;
+    border-radius: 3px;
+    border: 1px solid #8888;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+.button{
+    margin-top: 45px;
+    margin-left: 250px;
+    margin-right: 250px;
+    text-align: center;
+}
+.footer {
+    position:absolute;
+    bottom:10px;
+    width:100%;
+    height:25px; 
+    text-align: left;
+ }
